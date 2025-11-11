@@ -30,7 +30,8 @@ else {
 process.on('SIGINT', () => {
     process.exit(0);
 }
-// Exit with code 0 when Contener is stopped
+// Exit with code 0 when container is stopped
 process.on('SIGTERM', () => {
     process.exit(0);
+
 });
